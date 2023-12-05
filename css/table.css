@@ -1,0 +1,56 @@
+.graybox {
+    background: rgb(240, 240, 240);
+    border: 1px solid #ddd;			
+}
+
+.pcenter {
+    text-align: center;
+}
+
+.pcenterTable { 
+    box-align: center;
+    
+}
+
+.pure-table th  {
+    color:rgb(0, 0, 0);
+    font: bolder;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
+    
+}
+
+.pure-table  {
+    font-size: 10pt;
+    font: bolder;
+    
+}
+
+.pure-g{
+    margin-top: -10%;
+    
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+    
+
+  }
+  
+  a:hover {
+    font-weight: bold;
+  }
+
+@media (max-width: 768px) {
+    .pure-table th, .pure-table td, .pure-table-odd th {
+      font-size: 0.7em;
+      
+    }
+  }
+
+
+  
+
+
